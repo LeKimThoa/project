@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0BC2B3">
+    android:background="#f9f8f6">
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -22,19 +22,20 @@
             android:layout_width="300dp"
             android:layout_height="300dp"
             android:layout_gravity="center"
-            android:background="#0BC2B3"
+            android:background="#f9f8f6"
             android:src="@drawable/r1"
             tools:ignore="MissingConstraints" />
 
         <TextView
+            android:id="@+id/Diem"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="30dp"
-            android:background="#FC5B8C"
-            android:text="ĐIỂM CAO"
+            android:background="#f9f8f6"
+            android:text="HIGHSCORES"
             android:textAlignment="center"
-            android:textSize="30dp"
+            android:textSize="35dp"
             android:padding="10dp"/>
 
         <TextView
@@ -43,14 +44,15 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:textAlignment="center"
-            android:textSize="25dp" />
+            android:textSize="25dp"
+            android:background="#f9f8f6"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="30dp"
-            android:background="#FC5B8C"
+            android:background="#e38ed8"
             android:text="Trở về"
             android:textAlignment="center"
             android:textSize="20dp" />
